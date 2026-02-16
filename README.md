@@ -11,9 +11,12 @@ This project was generated using [Angular CLI](https://github.com/angular/angula
 
 ## Video Example
 
-<video src="vdo/vdo.mp4" width="100%" controls autoplay loop muted>
+<video src="./src/vdo/vdo.mp4" width="100%" controls autoplay loop muted>
   Your browser does not support the video tag.
 </video>
+
+> [!TIP]
+> ভিডিওটি প্লে না হলে এখানে ক্লিক করুন: **[Watch Demo Video](./src/vdo/vdo.mp4)**
 
 ## Input
 
