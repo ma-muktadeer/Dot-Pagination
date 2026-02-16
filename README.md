@@ -16,7 +16,7 @@ This project was generated using [Angular CLI](https://github.com/angular/angula
 </video>
 
 > [!TIP]
-> ভিডিওটি প্লে না হলে এখানে ক্লিক করুন: **[Watch Demo Video](./src/vdo/vdo.mp4)**
+> ভিডিওটি প্লে না হলে এখানে ক্লিক করুন: **[Watch Demo Video](https://cdn.dribbble.com/userupload/44001276/file/original-ef6aabdb8816e07ee2bad3b1ce284709.mp4)**
 
 ## Input
 
