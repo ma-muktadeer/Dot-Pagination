@@ -1,6 +1,6 @@
 import { Component, signal } from '@angular/core';
 import { RouterOutlet } from '@angular/router';
-import { DotPaginationComponent } from './shared/components/dot-pagination/dot-pagination.component';
+import { DotPaginationComponent } from './dot-pagination/dot-pagination.component';
 
 @Component({
   selector: 'app-root',
