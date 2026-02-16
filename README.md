@@ -2,6 +2,38 @@
 
 This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 20.3.15.
 
+## Features
+
+- Dot pagination
+- Smooth animation
+- Responsive design
+- Fixed position
+
+## Video Example
+
+<video src="https://cdn.dribbble.com/userupload/44001276/file/original-ef6aabdb8816e07ee2bad3b1ce284709.mp4" width="100%" controls autoplay loop muted>
+  Your browser does not support the video tag.
+</video>
+
+## Input
+
+```typescript
+@Input() totalPages: number = 3;
+@Input() activeIndex: number = 0;
+```
+
+## Output
+
+```typescript
+@Output() pageChange = new EventEmitter<number>();
+```
+
+## How to use
+
+```typescript
+<app-dot-pagination [totalPages]="5" [activeIndex]="activeIndex" (pageChange)="onPageChange($event)"></app-dot-pagination>
+```
+
 ## Development server
 
 To start a local development server, run:
