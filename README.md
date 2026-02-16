@@ -11,7 +11,7 @@ This project was generated using [Angular CLI](https://github.com/angular/angula
 
 ## Video Example
 
-<video src="https://cdn.dribbble.com/userupload/44001276/file/original-ef6aabdb8816e07ee2bad3b1ce284709.mp4" width="100%" controls autoplay loop muted>
+<video src="vdo/vdo.mp4" width="100%" controls autoplay loop muted>
   Your browser does not support the video tag.
 </video>
 
