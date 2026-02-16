@@ -10,7 +10,7 @@ import { DotPaginationComponent } from './dot-pagination/dot-pagination.componen
 })
 export class App {
   protected readonly title = signal('dot-pagination');
-  protected activeIndex = signal<number>(0);
+  protected activeIndex = signal<number>(1);
 
   onPageChange(index: number) {
     this.activeIndex.update((prev) => index);

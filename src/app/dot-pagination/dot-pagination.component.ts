@@ -3,7 +3,6 @@ import { CommonModule } from '@angular/common';
 
 @Component({
     selector: 'app-dot-pagination',
-    standalone: true,
     imports: [CommonModule],
     templateUrl: './dot-pagination.component.html',
 })
@@ -29,7 +28,6 @@ export class DotPaginationComponent {
 
     onPageClick(index: number): void {
         if (index === this.activeIndex()) return;
-
         const i = this.activeIndex();
         this.activeIndex.update(() => index);
         this.pageChange.emit(index);
@@ -38,7 +36,7 @@ export class DotPaginationComponent {
     }
 
     private updateIndicator(index: number, animate: boolean = true) {
-        this.indicatorLeft.update(() => `${(index * this.STRIDE) || 1}rem`);
+        this.indicatorLeft.update(() => `${(((index - 1) * this.STRIDE) + 1) || 1}rem`);
         this.indicatorWidth.update(() => `${this.DOT_WIDTH}rem`);
     }
 
