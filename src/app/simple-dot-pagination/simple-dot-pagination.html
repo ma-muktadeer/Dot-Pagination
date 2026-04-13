@@ -1,1 +1,10 @@
-<p>simple-dot-pagination works!</p>
+<h1 class="text-3xl font-bold mb-8 text-gray-800">Dot Pagination Demo</h1>
+
+<div class="p-8 bg-white rounded-lg shadow-md flex flex-col items-center gap-6">
+    <div class="text-xl text-gray-600">
+        Active Page: <span class="font-bold text-[#d13589]">{{ activeIndex() + 1 }}</span>
+    </div>
+
+    <app-simple-pagination [totalPages]="totalPages" [activeIndex]="activeIndex()"
+        (pageChange)="onPageChange($event)"></app-simple-pagination>
+</div>
